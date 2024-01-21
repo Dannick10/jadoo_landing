@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 300px) and (max-width: 1000px){
+
+    .header_list{
+        display: none
+    }
+
+    #Book_trip .card_book{
+        flex-direction: column;
+       margin-top: 40px;
+    }
+
+    #Book_trip .card_book img{
+        width: 3.5em;
+      
+    }
+
+    .enjoy{
+        display: none
+    }
+    
+    img.img_header{
+        width: 98%;
+        height: 98%;
+    }
+
+    img.plane{
+        width: 20%;
+    }
+
+    div.testiomonials_cards{
+     width: 70%
+    }
+
+    div.title_testimonals h1,div.title h1{
+        font-size: 3.8em;
+    }
+
+    div.subscribe_contain{
+        font-size: 0.8em;
+        width: 100%;
+        border-radius: 0;
+        height: 250px;
+       padding-top: 60px;
+       padding-bottom: 30px;
+       gap: 20px;
+    }
+
+    input#email{
+        width: 250px;
+    }
+
+    div.subscribe_contain #btn_mall{
+        width: 80px;
+        
+    }
+
+    #subscribe h3{
+        font-size: 14px;
+        
+    }
+
+
+};
