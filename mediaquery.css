@@ -65,5 +65,8 @@
         display: none
     }
 
+    .decorate svg{
+        display: none
+    }
 
 };
