@@ -228,10 +228,18 @@ top: 20px;
 .card p{
     line-height: 26px;
     width: 181px;
-  
     
 }
 
+.card{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(0px);
+}
+
+.card div{
+    transform: translateZ(10px);
+}
 
 #card_decorate{
     position: absolute;
@@ -274,6 +282,7 @@ height: 80vh;
 .card div i {
   color: black;
 }
+
 
 .italy,.london,.europe{
     display: flex;
@@ -714,3 +723,4 @@ button#btn_mall{
     right: 6em;
     top: -30px;
 }
+
