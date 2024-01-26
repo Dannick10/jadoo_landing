@@ -73,6 +73,11 @@
         display: flex;
     }
 
+    div.card div{
+        transform: translateZ(0px);
+    }
+    
+
  
     
 };
