@@ -69,3 +69,18 @@ document.querySelector('#btn_mall').addEventListener('click',(event)=>{
     
     event.preventDefault()
 })
+
+
+const backtoTop = document.querySelector('.activedbottom')
+window.addEventListener('scroll',()=>{
+    backtoTop.classList.toggle('activedbottom', window.scrollY > 500)
+
+    
+  })    
+  
+  backtoTop.addEventListener('click',()=>{
+    window.scrollTo({
+      top: 0
+    })
+  })
+

@@ -823,3 +823,30 @@ button#btn_mall{
    color: #e79435;
     text-decoration: overline;
   }
+
+  i.backtoTop{
+    position: fixed;
+    right: 20px;
+    bottom: -80px;
+    font-size: 1.2em;
+    color: var(--cor2);
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.9;
+    z-index: 3;
+    transition: 2s ease;
+  }
+
+  i.backtotop:hover{
+    cursor: pointer;
+   
+  }
+
+  i.activedbottom{
+
+    bottom: 20px;
+    right: 20px;
+    transition: 1s ease;
+  }
