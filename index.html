@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jadoo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
 </head>
 <body>
 
@@ -322,8 +323,10 @@
             <h3>Subscribe to get information, latest news and other
                 interesting offers about Jadoo</h3>
             <div class="email">
-                <input type="email" id="email" placeholder="✉ your email">      
-                <button id="btn_mall">subscribe</button>
+                <form action="">
+                    <input type="email" id="email" placeholder="✉ your email" required="on" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">      
+                    <button id="btn_mall">subscribe</button>
+                </form>
             </div>
         </div>
         <div class="subscribe_decor">
@@ -332,6 +335,7 @@
     </section>
 
     <script src="scripts/vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
     <script src="https://kit.fontawesome.com/e98b48dcc9.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

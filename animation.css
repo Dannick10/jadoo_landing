@@ -2,8 +2,7 @@
 
 
   button#btn_mall:hover{
-        background: var(--gradient, linear-gradient(-180deg, #FF946D 0%, #FF7D68 50%));
-        width: 20%;
+        background: var(--gradient, linear-gradient(-180deg, #FF946D 0%, #FF7D68 50%));   
         cursor: pointer;
         filter: brightness(110%);
     }
