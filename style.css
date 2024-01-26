@@ -25,6 +25,17 @@ body{
    
 }
 
+
+svg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 530px;
+    height: 530px;
+    z-index: -1;
+ 
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -48,16 +59,6 @@ p{
     font-weight: 500;
     line-height: 30px;
   
-}
-
-svg{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 530px;
-    height: 530px;
-    z-index: -1;
- 
 }
 
 select{
@@ -484,18 +485,21 @@ width: 350px;
 }
 
 #testimonials{
+    
     position: relative;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     margin-top: 10em;
     
 }
 
 .title_testimonals .category_title{
-    width: 390px;
-    
+    width: 300px;
+    text-align: center;
+    font-size: 2.8em;
 }
 
 .circles{
@@ -573,45 +577,6 @@ width: 350px;
     cursor: pointer;
 }
 
-#patrionages{
-    overflow:auto; 
-    position: relative;
-}
-
-#patrionages::-webkit-scrollbar{
-    display: none;
-
-}
-
-
-#patrionages .patrionages_img{
-    margin-top: 5em;
-    display: flex;
-    align-items: center;
-   justify-content: space-evenly;
-   
-
-}
-
-.patrionages_img{
-    animation-name: example;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-}
-
-#ilum{
-    width: 40px;
-    height: 30%;
-   background-color:  #f8f8f8;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    rotate: 50deg;
-    filter: blur(10px);
-    animation-name: light;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-}
 
 #subscribe{
     display: flex;
