@@ -825,6 +825,7 @@ button#btn_mall{
   }
 
   i.backtoTop{
+     display: none;
     position: fixed;
     right: 20px;
     bottom: -80px;
@@ -845,7 +846,7 @@ button#btn_mall{
   }
 
   i.activedbottom{
-
+    display: block;
     bottom: 20px;
     right: 20px;
     transition: 1s ease;
