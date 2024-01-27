@@ -825,10 +825,9 @@ button#btn_mall{
   }
 
   i.backtoTop{
-     display: none;
     position: fixed;
+    bottom: 20px;
     right: 20px;
-    bottom: -80px;
     font-size: 1.2em;
     color: var(--cor2);
     background-color: white;
@@ -847,7 +846,7 @@ button#btn_mall{
 
   i.activedbottom{
     display: block;
-    bottom: 20px;
     right: 20px;
+    bottom: -80px;
     transition: 1s ease;
   }

@@ -73,7 +73,7 @@ document.querySelector('#btn_mall').addEventListener('click',(event)=>{
 
 const backtoTop = document.querySelector('.activedbottom')
 window.addEventListener('scroll',()=>{
-    backtoTop.classList.toggle('activedbottom', window.scrollY > 500)
+    backtoTop.classList.toggle('activedbottom', window.scrollY < 500)
 
     
   })    
